@@ -1,0 +1,204 @@
+body{
+  font-family:"Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-weight: 700;
+  font-size:2rem;
+}
+
+h3{
+ font-size: 1.5rem;
+}
+
+/*section*/
+.coloured-section{
+  background-color:#ff4c68;
+  color:white;
+}
+.white-section{
+  background-color:#fff;
+}
+
+/*Title*/
+#title{
+  text-align:left;
+}
+/*title image*/
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  margin-left:7rem;
+  position:absolute;
+}
+
+.title-h1{
+   width:500px;
+}
+
+.container-fluid
+{
+  padding:3% 15% 7% ;
+}
+
+/*navigation bar*/
+
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.3rem;
+  font-weight:bold;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding:0 18px;
+  font-size:1.2rem;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/*download buttons*/
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+
+
+/*feature*/
+#features{
+  padding:7% 15% 3% 15%;
+  position:relative;
+  }
+
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+
+div>p{
+  font-size:1rem;
+  font-weight:200;
+  color:#8f8f8f;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+
+  /* Testimonials */
+  #testimonials{
+    background:#ef8172;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+
+.testimonial-image{
+width:10%;
+border-radius: 100%;
+margin:20px;
+}
+
+.carousel-item {
+  padding:10% 15% ;
+}
+
+/*press section*/
+#press{
+  background:#ef8172;
+  text-align:center;
+  padding-bottom:3%;
+}
+
+.press-logo{
+  width:15%;
+  margin:0 20px 20px 50px;
+}
+
+/*pricing section**/
+
+#pricing{
+  padding:100px;
+  padding-bottom:50px;
+}
+
+.pricing-column
+{
+  padding:3% 2%;
+}
+
+/*end portion*/
+
+#cta{
+  padding:7% 15% ;
+}
+.cta-h3{
+ font-size:3rem;
+ line-height:4.5rem;
+}
+.end-buttons{
+ margin:3% 2% 1%;
+}
+
+
+/*footer*/
+#footer{
+  padding:6% 15% 4%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.below-icons{
+   margin:1.5%;
+}
+
+@media (max-width:994px)
+{
+  .title-image
+  {
+    position:static;
+    transform: rotate(0);
+    margin:0 auto 0 auto;
+  }
+
+  #testimonials,#press,#cta,#title
+  {
+    width:600px;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+  #features,#pricing,#footer{
+    position: relative;
+    left:110px;
+  }
+  #pricing{
+    left:50px;
+    width:500px;
+  }
+  .title-h1{
+    position: relative;
+    right:40px;
+  }
+}
